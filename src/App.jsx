@@ -4,6 +4,7 @@ import Donate from './pages/Donate';
 import About from './pages/About';
 import ContactUs from './pages/ContactUs';
 import ThankYou from './pages/ThankYou';
+import OrphanageDetail from "./pages/OrphanageDetail";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/thank-you" element={<ThankYou />} />
+      <Route path="/orphanages/:id" element={<OrphanageDetail />} />
       
 
     </Routes>
